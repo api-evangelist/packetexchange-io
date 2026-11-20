@@ -1,4 +1,4 @@
-# packetexchange-io
+# PacketExchange
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-packetexchange-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://packetexchange.io/
+PacketExchange is a wholesale voice and SMS marketplace that enables users to buy and sell VoIP routes and SMS termination globally. It offers a unified API for accessing live rates, managing routes, and integrating voice, SMS, and number services. The platform supports AI voice agents, OTP APIs, and provides tools for carriers and businesses to build communications solutions.
+
+**Areas:** Voice · SMS · VoIP · Marketplace · API
+
+## PacketExchange on APIs.io
+
+Everything profiled for PacketExchange is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/packetexchange-io/](https://apis.io/providers/packetexchange-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [PacketExchange API](https://apis.io/apis/packetexchange-io/packetexchange-io-api/) — PacketExchange API as documented publicly: 107 operations. Contract generated from the documentation by API Evangelist (2026-11-20); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Packetexchange Io Webhooks](https://apis.io/asyncapis/packetexchange-io/packetexchange-io-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1AccountClosePreviewResponse](https://apis.io/schemas/packetexchange-io/packetexchange-io-get-api-v1-account-close-preview-response/)
+- [GetApiV1AccountEmailResponse](https://apis.io/schemas/packetexchange-io/packetexchange-io-get-api-v1-account-email-response/)
+- [GetApiV1AccountResponse](https://apis.io/schemas/packetexchange-io/packetexchange-io-get-api-v1-account-response/)
+- [GetApiV1BillingTaxInvoicesIdResponse](https://apis.io/schemas/packetexchange-io/packetexchange-io-get-api-v1-billing-tax-invoices-id-response/)
+- [GetApiV1StatusPageResponse](https://apis.io/schemas/packetexchange-io/packetexchange-io-get-api-v1-status-page-response/)
+- [PostApiV1VerifyStartResponse](https://apis.io/schemas/packetexchange-io/packetexchange-io-post-api-v1-verify-start-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Packetexchange Io Context](https://apis.io/jsonld/packetexchange-io/packetexchange-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PacketExchange API Rules](https://apis.io/rules/packetexchange-io/packetexchange-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PacketExchange Authentication](https://apis.io/security/packetexchange-io/packetexchange-io-authentication/)
+- [PacketExchange Domain Security](https://apis.io/security/packetexchange-io/packetexchange-io-domain-security/)
+- [PacketExchange Vulnerability Disclosure](https://apis.io/security/packetexchange-io/packetexchange-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PacketExchange Plans Pricing](https://apis.io/plans/packetexchange-io/packetexchange-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://packetexchange.io/)
+- [Documentation](https://packetexchange.io/docs)
+- [Getting started](https://packetexchange.io/api-docs/reference/onboarding)
+- [API reference](https://packetexchange.io/developers)
+- [Pricing](https://packetexchange.io/platform/pricing)
+- [Support](https://packetexchange.io/support)
+- [Changelog](https://packetexchange.io/developers/changelog)
+- [Terms of service](https://packetexchange.io/terms)
+- [Privacy policy](https://packetexchange.io/privacy)
+- [GitHub](https://github.com/PacketExchangeIO)
+- [Status](https://packetexchange.io/status)
+
+## API Evangelist rating
+
+**Kin Score 58.7** — strong · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 51.5 |
+
+**Agent readiness 49.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/packetexchange-io/](https://apis.io/providers/packetexchange-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PacketExchange: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/packetexchange-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
